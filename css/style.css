@@ -20,11 +20,73 @@ header{
     width: 100%;
     background-color:#F6F8F9 ;
     border: solid black;
+    
 }
 
 .white-area{
+    margin-top: 70px;
     width: 80%;
     height: 700px;
     border: solid black;
     background-color:white ;
+    padding-left: 5%;
 }
+
+
+
+.select-option-white{
+    height: 45px;
+    width: 110px;
+    border: solid grey;
+
+
+}
+.blue-button{
+    background-color: #47ADF1;
+    border: solid #47ADF1;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+    
+}
+#blue-button-text{
+    font-size: 16px;
+}
+
+.white-button{
+    background-color: white;
+    border: solid gray ;
+    opacity: 40%;
+    color: gray;
+    width: 110px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 5px; 
+}
+
+.circle{ 
+    background-color: white;
+    display: inline;
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid green;
+    margin-left: 0;
+    
+      
+}
+
+#spunta-1{
+    margin-left: 15px;
+    padding-top: -5;
+}
+
+.editorial-1{
+   display: inline;
+    width: 90px;
+    height: 35px;
+    border: solid #47ADF1 ;margin: 0;
+}
+
