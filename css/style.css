@@ -1,0 +1,30 @@
+header{
+    height: 70px;
+    width: 100%;
+    border: solid black;
+}
+
+#logo,
+.text-logo{
+    vertical-align: middle;
+    color: black;
+    height: 50px;
+    width: 50px;
+    font-size: xx-large;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+.grey-area{
+    height: 700px;
+    width: 100%;
+    background-color:#F6F8F9 ;
+    border: solid black;
+}
+
+.white-area{
+    width: 80%;
+    height: 700px;
+    border: solid black;
+    background-color:white ;
+}
