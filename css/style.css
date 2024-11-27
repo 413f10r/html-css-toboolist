@@ -1,3 +1,7 @@
+html{
+    font-family: sans-serif;
+}
+
 header{
     height: 70px;
     width: 100%;
@@ -6,13 +10,10 @@ header{
 
 #logo,
 .text-logo{
+    display: inline-block;
     vertical-align: middle;
     color: black;
-    height: 50px;
-    width: 50px;
     font-size: xx-large;
-    margin-top: 13px;
-    margin-left: 15px;
 }
 
 .grey-area{
@@ -29,7 +30,18 @@ header{
     height: 700px;
     border: solid black;
     background-color:white ;
-    padding-left: 5%;
+    margin: 70px auto 0;
+}
+
+.margin{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -67,26 +79,26 @@ header{
 
 .circle{ 
     background-color: white;
-    display: inline;
+    display: inline-block ;
     
     width: 15px;
     height: 15px;
     border-radius: 50%;
     border: solid green;
-    margin-left: 0;
+   
     
       
 }
-
-#spunta-1{
-    margin-left: 15px;
-    padding-top: -5;
+.spunta-1{
+    margin-left: -3;
 }
 
-.editorial-1{
-   display: inline;
-    width: 90px;
-    height: 35px;
-    border: solid #47ADF1 ;margin: 0;
+.editor-button-1{
+    background-color: #47ADF1;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+
 }
 
