@@ -1,5 +1,5 @@
 html{
-    font-family: sans-serif;
+    font-family: 'Arial Narrow Bold';
 }
 
 header{
@@ -8,12 +8,20 @@ header{
     border: solid black;
 }
 
-#logo,
-.text-logo{
+figure{
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+}
+
+header img,
+header h1 {
+
+    
     display: inline-block;
     vertical-align: middle;
     color: black;
-    font-size: xx-large;
 }
 
 .grey-area{
@@ -80,17 +88,17 @@ hr{
 .circle{ 
     background-color: white;
     display: inline-block ;
+    vertical-align: middle;
     
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     border: solid green;
-   
-    
       
 }
 .spunta-1{
-    margin-left: -3;
+    margin-left: 0;
+    color: green;
 }
 
 .editor-button-1{
@@ -102,3 +110,26 @@ hr{
 
 }
 
+.circle-red{ 
+    background-color: white;
+    display: inline-block ;
+    vertical-align: middle;
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: solid red;
+}
+
+.x-cicle{
+    color: red;
+}
+
+
+.editor-button-3{
+    background-color: lightgreen;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
